@@ -9,9 +9,12 @@ html {
 
     /*alignment*/
     margin: auto;
-    width: 60%;
+    width: 750px;
 }
 
+mark {
+    background-color: yellow;
+}
 
 #about {
 
