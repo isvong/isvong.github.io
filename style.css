@@ -1,29 +1,73 @@
 html {
     /*colors*/
-    background-color: whitesmoke;
+    background-color: cornflowerblue;
 
     /*font*/
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 
-    /*alignment*/
-    margin: auto;
-    width: 750px;
 }
 
 mark {
     background-color: yellow;
 }
 
-#about {
+#header {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#content {
+    margin: auto;
+    width: 1000px;
+    height: 800px;
+}
+
+#bio {
+
+    overflow: auto;
+
+    /*position*/
+    position: absolute;
 
     /*container adjustments*/
-    padding: 25px;
+    width: 345px;
+    height: 650px;
+    padding: 15px;
     outline: black solid 2px;
 
     /*colors*/
     background-color: whitesmoke;
     color: black;
+
+}
+
+#timeline {
+    overflow: auto;
+
+    width: 320px;
+    height: 200px;
+}
+
+#about {
+
+    overflow: auto;
+
+    /*position*/
+    position: absolute;
+    margin-left: 385px;
+
+    /*container adjustments*/
+    width: 600px;
+    height: 650px;
+    padding: 15px;
+    outline: black solid 2px;
+
+    /*colors*/
+    background-color: whitesmoke;
+    color: black;
+
 }
 
 #footer {
