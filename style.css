@@ -22,10 +22,16 @@ a {
     color: darkblue;
 }
 
-#header {
+#header a {
     color: white;
     font-weight: bold;
+    text-decoration: none;
     padding: 5px;
+}
+
+#header {
+    margin: 10px;
+    margin-left: 0;
 }
 
 #content {
